@@ -10,6 +10,13 @@ This plugin is forked from::
 
 With only one fix so far: allows to rename files even file path has space in it.
 
+Simple usage
+------------
+
+When you editing a file and you need to rename it, in command mode execute::
+
+    :Rename new_file_name.txt
+
 How to install?
 ---------------
 
