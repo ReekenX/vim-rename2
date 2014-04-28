@@ -8,7 +8,7 @@ This plugin is forked from::
 
     http://www.vim.org/scripts/script.php?script_id=2724
 
-With only one fix so far: allows to rename files even file path has space in it.
+With only one fix so far: allows to rename files even file path has spaces.
 
 Simple usage
 ------------
@@ -17,10 +17,12 @@ When you editing a file and you need to rename it, in command mode execute::
 
     :Rename new_file_name.txt
 
-How to install?
----------------
+VIM-BUNDLE
+----------
 
-Simply copy the script to your ~/.vim/plugin directory.
+This plugin should work with VIM bundle, so checkout this repo in bundle folder.
+
+If you are not using VIM bundle, then make sure you have the same file in your VIM plugin directory as this repo has.
 
 Authors
 -------
